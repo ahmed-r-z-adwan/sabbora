@@ -6,6 +6,18 @@ An Android app for teachers at learning points where the network comes and goes 
 
 > **Status: phase 1 of 4 — the local app.** Classes, students, roll call and the class report work today, entirely offline. The sync layer is designed and its metadata is already written on every record, but the worker that talks to a server is not built yet. See [Roadmap](#roadmap).
 
+| Classes | Roll call | Class report | The same screen in Arabic |
+|---|---|---|---|
+| <img src="docs/screenshots/02-classes-pending.png" width="210" alt="The class list with two edits still waiting to sync"> | <img src="docs/screenshots/03-roll-call.png" width="210" alt="Taking the register, one tap per student"> | <img src="docs/screenshots/04-report.png" width="210" alt="Attendance rate and average per student"> | <img src="docs/screenshots/05-roll-call-arabic.png" width="210" alt="The roll call screen mirrored for Arabic"> |
+
+Two of these are doing more than showing the layout.
+
+**The first** has `2 waiting` under a struck-through cloud in the app bar. That is the count of records written locally that no server has acknowledged, and it is there so a teacher can tell at a glance whether today's register is still only on this phone. It is the offline-first design made visible rather than described.
+
+**The third** is the attendance policy in the [section below](#what-an-attendance-rate-means-here), applied to real records. Omar was late one day and still reads 100%, because lateness is not absence. Yousef was excused one day and also reads 100%, because an excused day leaves the denominator instead of counting against him. The `Average` column is an em dash for everyone, because no assessment has been marked yet — not `0%`, which would be a claim the data does not support.
+
+**The fourth** is the same roll call in Arabic: the layout mirrors, the chips run right to left, the button moves to the other corner, and the pending count reads *"18 تغييرًا بالانتظار"* — the correct Arabic plural form for that number, not a single hard-coded phrasing.
+
 ## The problem
 
 At a learning point the register lives in a notebook. Three things follow from that: the notebook is the only copy, a teacher covering a class cannot see what the regular teacher recorded, and a term's attendance has to be totalled by hand.
