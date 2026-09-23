@@ -20,8 +20,9 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Set up the Android SDK
-        uses: android-actions/setup-android@v3
+      # No setup-android step: the ubuntu runner already ships the SDK with
+      # ANDROID_HOME set, and AGP downloads the compile SDK it needs. The action was
+      # failing anyway — it still tries to install the retired `tools` package.
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
