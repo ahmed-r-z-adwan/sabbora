@@ -1,5 +1,7 @@
 # سبّورة · Sabbora
 
+[![tests](https://github.com/ahmed-r-z-adwan/sabbora/actions/workflows/tests.yml/badge.svg)](https://github.com/ahmed-r-z-adwan/sabbora/actions/workflows/tests.yml)
+
 An Android app for teachers at learning points where the network comes and goes and the register is still kept on paper. Attendance, marks and reports, all of it usable with the phone in aeroplane mode.
 
 > **Status: phase 1 of 4 — the local app.** Classes, students, roll call and the class report work today, entirely offline. The sync layer is designed and its metadata is already written on every record, but the worker that talks to a server is not built yet. See [Roadmap](#roadmap).
