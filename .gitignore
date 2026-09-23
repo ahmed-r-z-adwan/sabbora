@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+.gradle-user/
+.gradle-user-clean/
+build/
+**/build/
+
+# Local Android config
+local.properties
+
+# Signing and secrets
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.properties.local
+.env
+.env.*
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Generated outputs and logs
+outputs/
+work/
+backups/
+*.log
+offline-build-log.txt
+missing-dependencies.txt
+missing-coordinates.txt
+
+# OS files
+.DS_Store
+Thumbs.db

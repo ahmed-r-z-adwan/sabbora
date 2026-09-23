@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sabbora</string>
+
+    <!-- Classes -->
+    <string name="classes_title">Classes</string>
+    <string name="add_class">Add class</string>
+    <string name="class_name">Class name</string>
+    <string name="no_classes_yet">No classes yet.\nTap + to add your first one.</string>
+
+    <!-- Roll call -->
+    <string name="roll_call">Roll call</string>
+    <string name="add_student">Add student</string>
+    <string name="student_name">Student name</string>
+    <string name="no_students_yet">No students in this class yet.\nTap + to add one.</string>
+    <string name="present">Present</string>
+    <string name="late">Late</string>
+    <string name="absent">Absent</string>
+    <string name="excused">Excused</string>
+    <string name="previous_day">Previous day</string>
+    <string name="next_day">Next day</string>
+
+    <!-- Report -->
+    <string name="report">Report</string>
+    <string name="attendance_rate">Attendance</string>
+    <string name="average">Average</string>
+    <string name="days_marked">Days marked</string>
+
+    <!-- Sync -->
+    <plurals name="pending_changes">
+        <item quantity="one">%1$d waiting</item>
+        <item quantity="other">%1$d waiting</item>
+    </plurals>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+</resources>

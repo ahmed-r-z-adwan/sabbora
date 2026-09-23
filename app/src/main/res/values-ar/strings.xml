@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سبّورة</string>
+
+    <!-- الصفوف -->
+    <string name="classes_title">الصفوف</string>
+    <string name="add_class">إضافة صف</string>
+    <string name="class_name">اسم الصف</string>
+    <string name="no_classes_yet">ما في صفوف بعد.\nاضغط + لإضافة أول صف.</string>
+
+    <!-- تسجيل الحضور -->
+    <string name="roll_call">الحضور</string>
+    <string name="add_student">إضافة طالب</string>
+    <string name="student_name">اسم الطالب</string>
+    <string name="no_students_yet">ما في طلاب بهذا الصف.\nاضغط + لإضافة طالب.</string>
+    <string name="present">حاضر</string>
+    <string name="late">متأخر</string>
+    <string name="absent">غائب</string>
+    <string name="excused">بعذر</string>
+    <string name="previous_day">اليوم السابق</string>
+    <string name="next_day">اليوم التالي</string>
+
+    <!-- التقرير -->
+    <string name="report">التقرير</string>
+    <string name="attendance_rate">نسبة الحضور</string>
+    <string name="average">المعدل</string>
+    <string name="days_marked">أيام مسجّلة</string>
+
+    <!-- المزامنة -->
+    <plurals name="pending_changes">
+        <item quantity="one">تغيير واحد بالانتظار</item>
+        <item quantity="two">تغييران بالانتظار</item>
+        <item quantity="few">%1$d تغييرات بالانتظار</item>
+        <item quantity="many">%1$d تغييرًا بالانتظار</item>
+        <item quantity="other">%1$d بالانتظار</item>
+    </plurals>
+
+    <!-- عام -->
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="back">رجوع</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      A platform theme, not a Material Components one: all real theming happens in Compose
+      (SabboraTheme), so pulling in the material XML library would add a dependency that
+      only ever styles the window before the first frame.
+    -->
+    <style name="Theme.Sabbora" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+</resources>

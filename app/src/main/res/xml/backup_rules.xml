@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The device id is deliberately excluded from backup. Restoring it onto a second phone
+  would give two installations the same `updatedBy`, and conflicts between them would
+  become impossible to attribute.
+-->
+<full-backup-content>
+    <include domain="database" path="." />
+    <exclude domain="sharedpref" path="sabbora_identity.xml" />
+</full-backup-content>

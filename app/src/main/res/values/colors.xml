@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Matches SabboraTheme's light background, so there is no flash before Compose draws. -->
+    <color name="window_background">#F5FAFB</color>
+    <color name="ic_launcher_background">#E8F3F4</color>
+</resources>
